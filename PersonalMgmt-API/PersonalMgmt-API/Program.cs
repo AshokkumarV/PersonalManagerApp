@@ -23,3 +23,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//secondary.color=f9AA35&primary.color=344955&primary.text.color=ffffff
