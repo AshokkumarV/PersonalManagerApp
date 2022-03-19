@@ -1,1 +1,1 @@
-# PeronalManagerApp
+# Personal Manager Application
