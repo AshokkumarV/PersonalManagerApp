@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.ng-valid {
+  &:not(.ng-untouched) {
+    @extend .is-valid
+  }
+}
+
+.ng-invalid {
+  &:not(.ng-untouched) {
+    @extend .is-invalid }
+}
+
+
+html, body{
+  height: 100vh;
+}
+
+.img-nav {
+    height: 16px;
+    margin: 0px;
+    text-shadow: #123030;
+    color: white;
+}
+
+
+@media screen and (max-width: 320px) {
+  .card-img, .card-img-top, .card-img-bottom {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 321px) and (min-width: 480px){
+  .card-img, .card-img-top, .card-img-bottom {
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 481px) and (min-width: 768px){
+  .card-img, .card-img-top, .card-img-bottom {
+    height: 75px;
+  }
+}
+
+@media screen and (min-width: 769px) and (min-width: 1024px){
+  .card-img, .card-img-top, .card-img-bottom {
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .card-img, .card-img-top, .card-img-bottom {
+    height: 125px;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: White;
+}
+
